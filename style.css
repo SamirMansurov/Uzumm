@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;  
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+header {
+    width: 1200px;
+    margin-bottom: 30px;
+
+    button {
+        width: 350px;
+        align-items: center;
+    }
+}
+
+
+
+.elem {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #000;
+    height: 100%;
+}
+
+.elem-heads {
+    display: flex;
+    justify-content: center;
+    img {
+        padding: 20px 0;
+        width: 350px;
+        height: 250px;
+        object-fit: contain;
+    }
+}
+
+.elem-info {
+    padding: 20px 10px 30px 40px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+button {
+   padding: 17px 100px;
+   border-radius: 12px;
+   margin-top: 20px;
+}
+
+h3 {
+    color: white;
+   font-size: 25px;
+   font-weight: 600;
+   text-align: left;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+    color: grey;
+}
+
+h4 {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+}
+
+
+.info-item {
+    display: flex;
+    gap: 60px;
+}
+
+.hidden {
+    display: none;
+}
+
+.aquamarine {
+    color: white !important;
+    background-color: aquamarine !important;
+}
+
+aside {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: white;
+    width: 30%;
+    right: -100%;
+    transition: .5s ease;
+}
+
+.menu-opened {
+    right: 0px;
+}
+
+
+.menu_list {
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 520px;
+    height: 220px;
+    border: 1px solid #000;
+}
+
+.menu_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right {
+    padding: 15px;
+    p {
+        color: black;
+    }
+}
+
+.left {
+    display: flex;
+    padding: 15px;
+    gap: 20px;
+}
+
+.blue {
+    color: blue;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+    img {
+        max-width: 130px;
+        padding-left: 20px ;
+    }
+}
+
+.text_box {
+   padding: 20px;
+
+   p {
+    color: black;
+   }
+}
+
+.baby {
+    margin-top: 20px;
+}
+span {
+    color: gray;
+}
+
+.btn_box {
+    display: flex;
+    gap: 5px
+
+}
+
+.btn_box button {
+     width: 5px;
+     border: none;
+     background-color: white;
+   
+    
+}
+
